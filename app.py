@@ -16,11 +16,16 @@ except FileNotFoundError:
 
 st.markdown(Components.page_header("📊 Multiple Dataset Analysis"), unsafe_allow_html=True)
 
+
 st.markdown("""
-<div style='text-align: center; color: #666; font-size: 0.9rem;'>
+<div style='text-align: center; color: #666; font-size: 1.8rem;'>
     <p><strong>Use the buttons to navigate to the different dashboards created with datasets analysis of several topics.</strong></p>
 </div>
 """, unsafe_allow_html=True)
+
+
+st.markdown("   ")
+st.markdown("   ")
 
 with st.container(height="content", width="stretch", horizontal_alignment="center"):
     st.image("image.svg")
